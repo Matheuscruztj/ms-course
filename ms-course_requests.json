@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4eb580c9-97a4-42e2-86b8-035b08fbd8c6",
+		"_postman_id": "7ce0a747-1f18-45cf-8412-f6b2ec47be2c",
 		"name": "ms-course",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -204,6 +204,48 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "Actuator refresh",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/actuator/refresh",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"actuator",
+										"refresh"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show worker configs on console Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/configs",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"configs"
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				},
@@ -242,7 +284,9 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"url": null
+								"url": {
+									"raw": ""
+								}
 							},
 							"response": []
 						},
