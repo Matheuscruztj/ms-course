@@ -600,6 +600,25 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "Actuator refresh",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{api-gateway}}/hr-user/actuator/refresh",
+									"host": [
+										"{{api-gateway}}"
+									],
+									"path": [
+										"hr-user",
+										"actuator",
+										"refresh"
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				},
