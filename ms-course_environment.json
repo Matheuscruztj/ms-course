@@ -1,0 +1,44 @@
+{
+	"id": "b326aaef-31a4-4eb4-b55c-e8cd72f88abb",
+	"name": "ms-course-env",
+	"values": [
+		{
+			"key": "api-gateway",
+			"value": "http://localhost:8765",
+			"enabled": true
+		},
+		{
+			"key": "config-host",
+			"value": "http://localhost:8888",
+			"enabled": true
+		},
+		{
+			"key": "client-name",
+			"value": "myappname123",
+			"enabled": true
+		},
+		{
+			"key": "client-secret",
+			"value": "myappsecret123",
+			"enabled": true
+		},
+		{
+			"key": "username",
+			"value": "leia@gmail.com",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "123456",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-10-17T20:03:00.049Z",
+	"_postman_exported_using": "Postman/8.11.1"
+}
