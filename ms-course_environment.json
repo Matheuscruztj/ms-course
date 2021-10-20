@@ -24,7 +24,7 @@
 		},
 		{
 			"key": "username",
-			"value": "leia@gmail.com",
+			"value": "nina@gmail.com",
 			"enabled": true
 		},
 		{
@@ -34,11 +34,11 @@
 		},
 		{
 			"key": "token",
-			"value": "",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzQ2ODg4NjYsInVzZXJfbmFtZSI6ImxlaWFAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9PUEVSQVRPUiIsIlJPTEVfQURNSU4iXSwianRpIjoiZDJlYjMyZjYtNDc5Ny00MjBmLTk2MzktMTdjYWMwMjYxNWY1IiwiY2xpZW50X2lkIjoibXlhcHBuYW1lMTIzIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl19.PTn44WICWFPPVPESHj52M5qzSYtYCv5aWI1_yUKR1Xw",
 			"enabled": true
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2021-10-17T20:03:00.049Z",
+	"_postman_exported_at": "2021-10-20T00:51:40.776Z",
 	"_postman_exported_using": "Postman/8.11.1"
 }
